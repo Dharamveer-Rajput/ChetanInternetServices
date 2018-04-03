@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "119371146397",
+    "firebase_url": "https://chetaninternetservices-8d97b.firebaseio.com",
+    "project_id": "chetaninternetservices-8d97b",
+    "storage_bucket": "chetaninternetservices-8d97b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119371146397:android:bc7b70beabd0e051",
+        "android_client_info": {
+          "package_name": "com.here.smartitventures.chetaninternetservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119371146397-886e53dujsob8vss8jqfin8snoel8fqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.here.smartitventures.chetaninternetservices",
+            "certificate_hash": "836a2024daf9e3e9da1338b25dedc10752cbfe6e"
+          }
+        },
+        {
+          "client_id": "119371146397-f0agrvj6iurccl0ee38qpjvhnpvu62lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEKUThBxfDQ4J8oIlRFW8yfTJ-hVLQEIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119371146397-f0agrvj6iurccl0ee38qpjvhnpvu62lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="50dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="01-April-2017"
+            android:gravity="center"
+            android:layout_weight="0.8"
+            android:textSize="12sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/downloadBytes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="3.98 GB"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/uploadBytes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="168.02 GB"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

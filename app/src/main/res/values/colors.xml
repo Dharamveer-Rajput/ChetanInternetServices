@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="cardblue">#3399ff</color>
+    <color name="buttonBlue">#07C2B4</color>
+
+    <color name="green">#4ef442</color>
+    <color name="grey">#808080</color>
+    <color name="red">#f4414a</color>
+    <color name="darkblue">#419af4</color>
+    <color name="lightgrey">#afbed6</color>
+
+    <color name="buttoncolor">#b33426</color>
+
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="darkgrey">#9E9E9E</color>
+    <color name="dialoglinearlayout">#ecf0f1</color>
+    <color name="exportbtn">#30AAFE</color>
+
+    <color name="blue">#00F</color>
+    <color name="yellow">#FF0</color>
+
+    <integer-array name="color_array">
+        <item>@color/red</item>
+        <item>@color/green</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+    </integer-array>
+
+</resources>

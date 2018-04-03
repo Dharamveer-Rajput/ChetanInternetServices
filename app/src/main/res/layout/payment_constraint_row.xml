@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+
+
+    <TextView
+        android:id="@+id/txtPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="333"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/txtPaymentdate" />
+
+    <TextView
+        android:id="@+id/txtPaymentdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01 Mar 2017"
+        android:textSize="12sp"
+
+        app:layout_constraintLeft_toRightOf="@+id/txtPayment"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/txtPaymentMethod" />
+
+    <TextView
+        android:id="@+id/txtPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash"
+        android:textSize="12sp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/txtPaymentdate"
+        app:layout_constraintRight_toLeftOf="@+id/btnPaymentType" />
+
+    <Button
+        android:id="@+id/btnPaymentType"
+        android:layout_width="40dp"
+        android:layout_height="16dp"
+        android:text="Payment"
+        android:background="@drawable/round_button"
+        android:textColor="@color/white"
+        android:textSize="7sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/txtPaymentMethod"
+        app:layout_constraintRight_toLeftOf="@+id/txtPaymentAmt" />
+
+    <TextView
+        android:id="@+id/txtPaymentAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="999.01"
+        android:textSize="12sp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/btnPaymentType"
+        app:layout_constraintRight_toLeftOf="@+id/txtPaymentDetails" />
+
+    <TextView
+        android:id="@+id/txtPaymentDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textColor="@color/cardblue"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/txtPaymentAmt"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginRight="8dp">
+            <ImageView
+                android:id="@+id/drawerOpen"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/drawerleft"/>
+
+
+                <TextView
+                    android:layout_toRightOf="@+id/drawerOpen"
+                    android:layout_toLeftOf="@+id/threedot"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Profile"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                 />
+
+            <ImageView
+                android:id="@+id/threedot"
+                android:layout_alignParentRight="true"
+                android:layout_width="4dp"
+                android:layout_height="15dp"
+                android:background="@drawable/settings"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

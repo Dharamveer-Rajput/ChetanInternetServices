@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/general_information"
+        android:orderInCategory="100"
+        android:title="@string/general_information"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/current_cycle"
+        android:orderInCategory="100"
+        android:title="@string/current_cycle"
+        app:showAsAction="never" />
+  <!--  <item
+        android:id="@+id/cocurrent_sessions"
+        android:orderInCategory="100"
+        android:title="@string/cocurrent_sessions"
+        app:showAsAction="never" />-->
+    <!--<item
+        android:id="@+id/billing_information"
+        android:orderInCategory="100"
+        android:title="@string/billing_information"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/additional_information"
+        android:orderInCategory="100"
+        android:title="@string/additional_information"
+        app:showAsAction="never" />-->
+
+</menu>

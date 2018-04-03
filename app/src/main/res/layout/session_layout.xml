@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar">
+
+    </include>
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardblue"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardblue"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/datePickerFrom"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_layout_topleft_bottomleft"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/calender" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:focusableInTouchMode="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_layout_topright_bottomright"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/edtDateFrom"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:background="@drawable/round_layout_topright_bottomright"
+                    android:hint="from"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/datePickerTo"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_layout_topleft_bottomleft"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/calender" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:focusableInTouchMode="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_layout_topright_bottomright"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/edtDateTo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:background="@drawable/round_layout_topright_bottomright"
+                    android:hint="to"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+
+            <TextView
+                android:gravity="center"
+                android:layout_weight="0.8"
+                android:text="Date"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Download Bytes"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Upload Bytes"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/recycler_viewLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toplayout">
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/relativeLayout"
+            android:layout_below="@+id/toplayout"
+            android:scrollbars="vertical" />
+
+        <ProgressBar
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/progress"
+            android:layout_gravity="center"
+            android:id="@+id/progressBarSession"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+
+    </FrameLayout>
+
+
+    <!--   <LinearLayout
+           android:layout_alignParentBottom="true"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_below="@+id/recycler_viewLay"
+           android:background="@color/cardblue"
+           >
+
+           <TextView
+               android:id="@+id/tvtotal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Total: 26.81 GB"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:textSize="15sp"
+               android:textColor="@color/white"/>
+       </LinearLayout>-->
+
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_list_item_array">
+        <item>Save as CSV</item>
+        <item>Save as TXT</item>
+        <item>Save as XML</item>
+        <item>Save as SQL</item>
+        <item>Save as JSON</item>
+        <item>Export to Excel</item>
+        <item>Export to Word</item>
+        <item>Export to PowerPoint</item>
+
+
+
+
+
+
+    </string-array>
+
+
+
+</resources>

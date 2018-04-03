@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/saveCSV"
+        android:title="Save as CSV"
+        android:titleCondensed="camera"
+        android:visible="true"
+        />
+
+    <item
+        android:id="@+id/saveTXT"
+        android:title="Save as TXT"
+        android:titleCondensed="camera"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/saveXML"
+        android:title="Save as XML"
+        android:titleCondensed="camera"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/saveSQL"
+        android:title="Save as SQL"
+        android:titleCondensed="camera"
+        android:visible="true"
+        />
+
+    <item
+        android:id="@+id/saveJSON"
+        android:title="Save as JSON"
+        android:titleCondensed="camera"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/saveEXCEL"
+        android:title="Export to Excel"
+        android:titleCondensed="camera"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/saveWORD"
+        android:title="Export to Word"
+        android:titleCondensed="camera"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/savePOWERPOINT"
+        android:title="Export to PowerPoint"
+        android:titleCondensed="camera"
+        android:visible="true"
+        />
+</menu>
